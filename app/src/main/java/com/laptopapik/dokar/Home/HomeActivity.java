@@ -1,12 +1,12 @@
 package com.laptopapik.dokar.Home;
 
 import android.content.Context;
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 import com.laptopapik.dokar.R;
 import com.laptopapik.dokar.Utils.BottomNavigationViewHelper;
@@ -35,7 +35,4 @@ public class HomeActivity extends AppCompatActivity {
         MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
         menuItem.setChecked(true);
     }
-
-
-
 }
