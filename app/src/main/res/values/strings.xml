@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dokar</string>
+    <string name="home_fragment">Home Fragment</string>
 </resources>
